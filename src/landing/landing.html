@@ -1,0 +1,73 @@
+<nav aria-label="Main"><b>FinWise</b><div><a href="#how">How it works</a><a href="#calc">Calculator</a><a href="#safe">Safety</a><a href="/login" data-route="/login">Log in</a><a class="btn" href="/signup" data-route="/signup">Get started</a></div></nav>
+
+<header class="story" id="how">
+<div class="copy">
+<section class="hero"><h1>Give every rupee a job<i class="coin dot"><span>₹</span></i></h1>
+<p>FinWise splits your income 50:30:20, locks a category before you overspend, and an AI coach shows where your money leaks.</p>
+<div class="row2"><a class="btn" href="/signup" data-route="/signup">Try FinWise</a><a class="btn w" href="#calc">Play with the calculator</a></div></section>
+<article class="step"><span class="num">1</span><h3>Auto-split income 50:30:20</h3><p>Add your monthly income. FinWise sorts it into Needs 50%, Wants 30% and Savings 20%. Want a different mix? Change the split.</p></article>
+<article class="step"><span class="num">2</span><h3>Import CSVs or log spends</h3><p>Upload a CSV bank statement or type in a spend yourself. Each one lands in the right category.</p></article>
+<article class="step"><span class="num">3</span><h3>Lock overspending &amp; ask AI</h3><p>When a category hits its limit, it locks. Need more room? Send an exception request. Your AI coach points out spending you can skip.</p></article>
+</div>
+<div class="stagewrap"><div class="stage" id="stage" aria-label="A phone and three budget jars filling with coins">
+<div class="sun"></div>
+<div class="cloud"><i style="left:0;top:34px;width:100px;height:56px"></i><i style="left:36px;top:0;width:96px;height:92px"></i><i style="left:100px;top:20px;width:100px;height:70px"></i><i class="g" style="left:52px;top:10px;width:40px;height:14px;transform:rotate(-20deg)"></i></div>
+<div class="rain"></div>
+<div class="phone" id="phone"><span class="bt" style="left:-5px;top:70px;height:42px"></span><span class="bt" style="right:-5px;top:100px;height:56px"></span>
+<div class="pb"><div class="track" id="track">
+<div class="scr"><h4>This month</h4><div class="big">₹50,000</div><small>Sample income</small>
+<div class="r"><span>Needs 50%</span><b>₹25,000</b></div><div class="bar" style="background:#8FB0FF;width:100%"></div>
+<div class="r"><span>Wants 30%</span><b>₹15,000</b></div><div class="bar" style="background:var(--coral);width:60%"></div>
+<div class="r"><span>Savings 20%</span><b>₹10,000</b></div><div class="bar" style="background:var(--sun);width:40%"></div></div>
+<div class="scr"><h4>Bank statement.csv</h4><div class="r"><span>Rows imported</span><b>Done</b></div>
+<div class="r"><span>Rent</span><b>Bills</b></div><div class="r"><span>Dinner out</span><b>Food</b></div><div class="r"><span>New shoes</span><b>Shopping</b></div><div class="r"><span>Monthly SIP</span><b>Savings</b></div><small>Sample rows, sorted for you.</small></div>
+<div class="scr"><h4>Smart Budget Lock</h4><div class="alert">Food &amp; Dining is full. New spends here are paused.</div>
+<div class="tog"><span>Ask for an exception</span><i></i></div><small>You approve every exception.</small></div>
+<div class="scr"><h4>AI Money Coach</h4><div class="ai">Food delivery is your fastest-growing spend. Cooking twice more a week could free up room for Savings.</div><div class="r"><span>Sample insight</span><b>Tap to ask</b></div></div>
+</div></div></div>
+<div class="jar" style="left:14px"><div class="jg"><div class="jf" style="background:#8FB0FF"></div></div><div class="jl"></div><div class="tg"><b><small>Needs 50%</small><span class="amt">₹0</span></b></div></div>
+<div class="jar" style="left:178px"><div class="jg"><div class="jf" style="background:var(--coral)"></div></div><div class="jl"></div><div class="tg"><b><small>Wants 30%</small><span class="amt">₹0</span></b></div></div>
+<div class="jar" style="left:342px"><div class="jg"><div class="jf" style="background:var(--sun)"></div></div><div class="jl"></div><div class="tg"><b><small>Savings 20%</small><span class="amt">₹0</span></b></div></div>
+</div></div>
+</header>
+
+<section class="sill" aria-labelledby="sillh">
+<h2 id="sillh">Every category gets its own jar</h2>
+<p style="margin-top:18px">Tap a jar to log a spend. When it fills up, the padlock snaps shut. The limits here are samples to play with.</p>
+<div class="jars4" id="jars4"></div><p class="msg" id="msg" aria-live="polite">Tap a jar.</p>
+<div style="text-align:center;margin-bottom:34px"><button class="btn" id="reset" style="font-size:1rem">Empty the jars</button></div>
+<div class="ledge"></div></section>
+
+<section class="sec feat" id="features"><div class="fan" aria-hidden="true">
+<div class="mp"><div><h4 style="font-weight:900">Split</h4><div class="r"><span>Needs</span><b>50%</b></div><div class="r"><span>Wants</span><b>30%</b></div><div class="r"><span>Savings</span><b>20%</b></div></div></div>
+<div class="mp"><div><div class="alert">Shopping is full</div><div class="tog"><span>Ask for exception</span><i></i></div></div></div>
+<div class="mp"><div><div class="ai">Skipping two cab rides a week could add up fast.</div></div></div></div>
+<div><h2>Budgeting that plays like a game</h2><ol>
+<li><span class="num">1</span><div><h3>Customizable 50:30:20 Split</h3><p>FinWise divides your income for you. Keep 50:30:20 or set your own.</p></div></li>
+<li><span class="num">2</span><div><h3>Smart Budget Locking</h3><p>Hit a limit and the category locks. Ask for an exception when you really need one.</p></div></li>
+<li><span class="num">3</span><div><h3>AI Money Coach</h3><p>Ask about your money. The coach spots unnecessary spending and gives advice that fits you.</p></div></li></ol></div></section>
+
+<section class="sec calc" id="calc"><div><h2>Slide your income. Watch the coins stack.</h2><p style="margin-top:16px">See how your money splits and grows over the months. Each coin is worth <b id="unit"></b>.</p></div>
+<div class="panel"><div class="ctl"><div><label for="inc">Monthly income <span id="incv"></span></label><input id="inc" type="range" min="10000" max="300000" step="1000" value="50000"></div>
+<div><label for="mo">Months <span id="mov"></span></label><input id="mo" type="range" min="1" max="12" value="1"></div></div>
+<div class="stacks">
+<div><div class="stk" style="--c:#6f93ff;--d:#2447c9"></div><b id="a0"></b><small>Needs 50%</small></div>
+<div><div class="stk" style="--c:var(--coral);--d:var(--cord)"></div><b id="a1"></b><small>Wants 30%</small></div>
+<div><div class="stk" style="--c:var(--sun);--d:var(--sund)"></div><b id="a2"></b><small>Savings 20%</small></div></div></div></section>
+
+<section class="sec safe" id="safe"><div><h2>Your money stays under cover</h2>
+<ul><li>No bank passwords. You upload read-only CSV statements instead.</li><li>Exceptions need your approval.</li><li>Your financial data is encrypted.</li><li>On our roadmap: a consent-based Account Aggregator connection regulated by the RBI.</li></ul></div>
+<div class="um" aria-hidden="true"><div class="rainy"></div><div class="top"></div><div class="pole"></div>
+<div class="jar2 locked"><div class="jw"><div class="gl" style="width:120px;height:140px"><div class="fl" style="height:60%;background:var(--sun)"></div></div><span class="pad">Locked</span></div></div></div></section>
+
+<section class="sec rev"><h2>What people say</h2><div class="rate"><span class="ph">[0.0]</span></div>
+<p><span class="ph">[Add your real average rating and number of reviews]</span></p>
+<div class="bubs"><div class="bub"><p><span class="ph">[Real customer quote goes here]</span></p><p><b>[Name, city]</b></p></div><div class="bub"><p><span class="ph">[Real customer quote goes here]</span></p><p><b>[Name, city]</b></p></div><div class="bub"><p><span class="ph">[Real customer quote goes here]</span></p><p><b>[Name, city]</b></p></div></div></section>
+
+<section class="sec start" id="start"><i class="coin spin">₹</i><h2>Ready to give your rupees a job?</h2>
+<p>Pricing: <span class="ph" style="color:var(--ink)">[YOUR PRICING]</span></p>
+<a class="btn" href="/signup" data-route="/signup">Try FinWise</a><p class="note">Already have an account? <a href="/login" data-route="/login" style="color:#fff;font-weight:900">Log in</a></p></section>
+
+<footer><div><b>FinWise</b><p style="margin-top:8px">Smarter splits for your money.</p></div>
+<div><p>Based in <span class="ph" style="color:var(--ink)">[CITY]</span>, India</p><p>Contact: <span class="ph" style="color:var(--ink)">[CONTACT EMAIL]</span></p></div>
+<div><a href="#how">How it works</a><br><a href="#calc">Calculator</a><br><a href="#safe">Safety</a></div></footer>

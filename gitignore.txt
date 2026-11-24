@@ -1,0 +1,17 @@
+# Installed packages and build output (recreated by npm install / npm run build)
+node_modules
+dist
+
+# Secrets and local settings: never upload these
+.env
+.env.*
+!.env.example
+
+# Tool folders
+.vercel
+supabase/.temp
+supabase/.branches
+
+# Mac and editor clutter
+.DS_Store
+*.log

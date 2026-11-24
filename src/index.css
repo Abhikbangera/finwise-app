@@ -1,0 +1,8 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+@layer base { body { @apply bg-cloud text-ink font-sans antialiased; } h1,h2,h3 { @apply font-black tracking-tight; } }
+@layer components {
+  .btn { @apply inline-block rounded-full bg-sun px-6 py-3 font-black text-ink shadow-[0_5px_0_#c99a0a] transition active:translate-y-[5px] active:shadow-none disabled:opacity-60; }
+  .btn-blue { @apply bg-rain text-white shadow-[0_5px_0_#2447c9]; }
+  .card { @apply rounded-3xl bg-white p-5 shadow-[0_4px_0_rgba(18,24,38,.08)]; }
+  .input { @apply w-full rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 outline-none focus:border-rain; }
+}
