@@ -28,6 +28,7 @@ export default function AuthForm({ mode }) {
         <input className="input" type="password" placeholder="Password (6+ characters)" minLength={6} value={f.password} onChange={set('password')} required />
         {err && <p role="alert" className="font-black text-coral">{err}</p>}
         {info && <p className="font-black text-rain">{info}</p>}
+        {signup && <p className="text-sm text-slate-600">By signing up you agree to the <Link className="font-black text-rain underline" to="/terms" target="_blank">Terms of Use</Link> and <Link className="font-black text-rain underline" to="/privacy" target="_blank">Privacy Policy</Link>, and confirm you are 18 or over.</p>}
         <button className="btn btn-blue w-full" disabled={busy || !configured}>{busy ? 'Please wait…' : signup ? 'Sign up' : 'Log in'}</button>
         <p className="text-center">{signup ? 'Already have an account?' : 'New here?'} <Link className="font-black text-rain" to={signup ? '/login' : '/signup'}>{signup ? 'Log in' : 'Create an account'}</Link></p>
       </form>
